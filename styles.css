@@ -10,11 +10,12 @@
 }
 
 #win-box {
-  border: black 1px solid;
+  
   width: 200px;
   margin: 10px;
   font-size: 30px;
   text-align: center;
+  margin-bottom: -20px;
   
 }
 
@@ -35,6 +36,7 @@
 .message {
   font-size: 50px;
   margin-top: -60px;
+  margin-bottom: 10px;;
 }
 
 .panel {
