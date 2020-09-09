@@ -11,13 +11,15 @@
 
 #win-box {
   border: black 1px solid;
-  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
   
 }
 
 .main {
-  margin-top: 50px;
-  color: blue;
+  margin-top: 30px;
   display: grid;
   grid-template-columns: auto auto auto;
   min-width: 400px;
@@ -25,20 +27,31 @@
 }
 
 .main_results {
-  margin-top: 50px;
+  margin-top: 20px;
   color: black;
-  
-  
-  
-  
   text-align: center;
 }
 
+.message {
+  font-size: 50px;
+  margin-top: -60px;
+}
 
 .panel {
-
-  margin-left: 50px;
-  font-size: 100px;
-  text-align: center;
+  margin: 0 30px;
+  font-size: 150px;
   
+}
+
+.panel:hover {
+  cursor: pointer;
+  background: whitesmoke;
+  border-radius: 10px;
+
+}
+
+.header-message {
+  text-align: center;
+  font-size: 40px;
+
 }

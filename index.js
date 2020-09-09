@@ -10,7 +10,7 @@
 
 // Setting up State
 let state = {
-  weapon: ["Rock","Paper","Scissors"],
+  weapon: ['\u{270A}','\u{270B}','\u{270C}'],
   winner: false,
   loser: false,
   tie: false,
@@ -28,17 +28,17 @@ function getMessage(){
       if (winner) {
           state.winner = false
           state.winCount++
-          return `You win! <br> <br>`
+          return `<div class="message">You win! <br> <br></div>`
       } else if (loser){
           state.loser = false
           state.lossCount++
-          return `You lose!<br><br>`
+          return `<div class="message"> You lose!<br><br></div>`
       } else if (tie){
           state.tie = false
           state.tieCount++
-          return `It's a tie!<br><br>`
+          return `<div class="message"> It's a tie!<br><br> </div>`
       } else {
-          return `Make a choice`
+          return `<div class="message"> Make a choice </div>`
       }
       
   
@@ -120,8 +120,8 @@ function renderResult(){
 
 function render () {
   let htmlString = `
-<div>
-  <div class="main_results">
+  
+  <div class="header-message">
   <h1>Rock, Paper, Scissors</h1><br>
     ${getMessage()}
   </div>
