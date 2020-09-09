@@ -1,0 +1,44 @@
+* {
+  font-family: 'Bebas Neue', cursive;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#win-box {
+  border: black 1px solid;
+  display: inline-block;
+  
+}
+
+.main {
+  margin-top: 50px;
+  color: blue;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  min-width: 400px;
+  text-align: center;
+}
+
+.main_results {
+  margin-top: 50px;
+  color: black;
+  
+  
+  
+  
+  text-align: center;
+}
+
+
+.panel {
+
+  margin-left: 50px;
+  font-size: 100px;
+  text-align: center;
+  
+}
